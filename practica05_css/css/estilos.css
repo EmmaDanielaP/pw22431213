@@ -44,6 +44,7 @@ body{
 }
 .header{
     background: rgb(35,92,146);
+    grid-area: header;
     padding: 10px 0px;
     text-align: center;
 }
@@ -52,6 +53,7 @@ body{
 }
 .links{
     background: rgb(30,73,114);
+    grid-area: links;
     color: white;
     font-size: 0.6em;
     text-align: left;
@@ -73,6 +75,7 @@ body{
 }
 .navbar{
     background: rgb(239,239,239);
+    grid-area: navbar;
     padding: 10px 5px;
     text-align: right;
 }
@@ -92,24 +95,24 @@ body{
     width: 100%;
 }
 .panels01porcentaje{
-    background: rgb(188,231,240);
+    background: rgb(180,225,255);
 }
 .panels02porcentaje{
-    background: rgb(250,234,204);
+    background: rgb(250,230,180);
 }
 .panels03porcentaje{
-    background: rgb(235,204,208);
+    background: rgb(235,195,208);
 }
 .panel article:nth-child(1){
-    border: 1px solid rgb(188,231,240);
+    border: 1px solid rgb(180,225,255);
 }
 .panel article:nth-child(2){
-    border: 1px solid rgb(250,234,204);
+    border: 1px solid rgb(250,230,180);
 }
 .panel article:nth-child(3){
-    border: 1px solid rgb(235,204,208);
+    border: 1px solid rgb(235,195,208);
 }
-.panel ing{
+.panel img{
     width: 150px;
 }
 .principal{
@@ -118,7 +121,8 @@ body{
     margin-left: 10px;
 }
 .principaltitulo{
-
+    color: rgb(174, 174, 174);
+    font-size: 0.6em;
 }
 .progress{
     background: white;
@@ -126,9 +130,9 @@ body{
     color: black;
     font-size: 0.6em;
     text-align: left;
-    margin-top: 15pxx;
+    margin-top: 15px;
 }
-progressbarra{
+.progressbarra{
     width: 100%;
 }
 .progress h4{
